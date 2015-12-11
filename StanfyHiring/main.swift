@@ -37,7 +37,7 @@ case .Some(let text):
         shell("open https://stanfy.com")
     case "4":
         print("sending...")
-        shell("echo something smart | mailx -s \"i want to work!\" agarkavyi@stanfy.com.ua")
+        shell("echo something smart | mailx -s \"i want to work!\" vacancy@stanfy.com.ua")
         print("sent")
     default: ()
     }
